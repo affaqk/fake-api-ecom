@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -32,8 +33,8 @@ const Navbar = () => {
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        
+       <Link to = "/signup"><button class="btn btn-outline-warning" type="submit">Signup</button> </Link>
       </form>
     </div>
   </div>
